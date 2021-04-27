@@ -39,23 +39,8 @@
 
         //函数
         //  封装一个$函数，并实现DOM节点查找功能 id查找、class查找、元素查找
-        function $(fun)
-        {
-            var subStr1 = fun.substring(0,3);
-            var subStr2 = fun.substring(0,6);
-            if(subStr1 == "id="){
-                //id查找
-                var nodes = document.getElementById(fun.substring(3));
-                return nodes;
-            }else if(subStr2 == "class="){
-                // class查找
-                var nodes = document.getElementsByClassName(fun.substring(6));
-                return nodes;
-            }else if(c){
-                // 元素查找
-            }
-        }
-
+       
+        
     </script>
 </body>
 </html>
